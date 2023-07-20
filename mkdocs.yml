@@ -1,0 +1,44 @@
+site_name: mini 1235's Notebook
+theme:
+  name: 'material'
+  features:
+    - navigation.tabs
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: cyan
+nav:
+  - HPC101: 
+      - Overview: HPC101/index.md
+      - Lec01: HPC101/01_Introduction.md
+      - Lec02: HPC101/02_Architecture.md
+      - Lec03: HPC101/03_HPCSkills.md
+      - Lec04: HPC101/04_Maintenance.md
+      - Lec05: HPC101/05_Vectorization.md
+      - Lec06: HPC101/06_OpenMP.md
+  - About: index.md
+  - Tools: 
+      - Unix&ssh: tools/unix_and_ssh.md
+      - git: tools/git.md
+      - mkdocs: tools/mkdocs.md
+      - latex: tools/latex.md
+      - slidev: tools/slidev.md
+      - docker: tools/docker.md
+      - vim&nvim: tools/vim.md
+  - PaperReview:
+    - ReadingGuide: PaperReview/ReadingGuide.md
+    - SectionsInPaper: PaperReview/Sections.md
+extra_css: [extra.css]
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
