@@ -23,7 +23,7 @@ nav:
       - Lec03: HPC101/03_HPCSkills.md
       - Lec04: HPC101/04_Maintenance.md
       - Lec05: HPC101/05_Vectorization.md
-      - Lec06: HPC101/06_OpenMP.md
+      - Lec06: HPC101/06_CUDA.md
   - About: index.md
   - Tools: 
       - Unix&ssh: tools/unix_and_ssh.md
